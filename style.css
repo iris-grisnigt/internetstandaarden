@@ -1,0 +1,63 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #fde4e4;
+    color: black;
+}
+
+h1 {
+    color: #826767;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid black;
+    box-sizing: border-box;
+    background-color: white
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+p {
+    margin: 0em;
+    padding: 1em;
+    background-color: pink 
+}
+
+.podcastlogo {
+    width: 200px;
+    height: 200px;
+}
+
+.fotovanons {
+    width: 140px;
+    height: 245px;
+}
+
+a {
+    transition: all 0.8s;
+    display: inline-block;
+}
+
+nav a {
+    font-size: 25px;
+    background-color: white
+}
+
+a:visited {
+    color: cornflowerblue
+}
+
+a:hover{
+    transform: scale(1.2) rotate(10deg);
+    color: magenta;
+}
